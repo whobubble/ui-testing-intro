@@ -10,17 +10,16 @@
 ---
 
 ###What can we test?
-| | instrument| assert | debug |
-|-|-----------|-----|----|
-| DOM nodes | |✓ |✓ |
-| user input / browser events | ✓ | ✓ | |
-| network traffic (HTTP) | ✓ | ✓ | ✓ |
-| call shell script | ✓ | | |
-| screenshots | ✓ | ✓ | ✓ |
-| video | ✓ | | |
-| navigation | ✓ | ✓ | |
-| time | ✓ | | |
-| js debugger | | | ✓|
+
+- DOM nodes
+- user input / browser events
+- network traffic (HTTP)
+- call shell script
+- screenshots
+- video
+- navigation
+- time
+- js debugger
 
 ---
 
