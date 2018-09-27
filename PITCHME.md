@@ -1,4 +1,4 @@
-# UI Testing w/ Cypress
+## UI Testing w/ Cypress
 
 ---
 
@@ -9,7 +9,7 @@
 
 ---
 
-### What can we test?
+What can we test?
 
 |                             | set | assert | debug |
 | --------------------------- | --- | ------ | ----- |
@@ -23,7 +23,7 @@
 
 ---
 
-### What can't we test?
+What can't we test?
 
 - Websocket "live updates"
   - approach:
@@ -35,7 +35,7 @@
 
 ---
 
-### What can't we test?
+What can't we test YET?
 
 - multiple origins (e.g. app, then Gmail)
 - multiple browser windows
@@ -44,7 +44,7 @@
 
 ---
 
-### How to write a test
+How to write a test
 
 - 1. cypress open
 - 2. create or reuse spec file
