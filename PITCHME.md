@@ -11,16 +11,15 @@
 
 ### What can we test?
 
-| DOM nodes                   |     | ✓   | ✓   |
-| --------------------------- | --- | --- | --- |
-| user input / browser events | ✓   | ✓   |     |
-| network traffic (HTTP)      | ✓   | ✓   | ✓   |
-| call shell script           | ✓   |     |     |
-| screenshots                 | ✓   | ✓   | ✓   |
-| video                       | ✓   |     |     |
-| navigation                  | ✓   | ✓   |     |
-| time                        | ✓   |     |     |
-| js debugger                 |     |     | ✓   |
+|                             | set | assert | debug |
+| --------------------------- | --- | ------ | ----- |
+| DOM nodes                   |     | ✓      | ✓     |
+| user input / browser events | ✓   | ✓      |       |
+| network traffic (HTTP)      | ✓   | ✓      | ✓     |
+| call shell script           | ✓   |        |       |
+| screenshots                 | ✓   | ✓      | ✓     |
+| video                       | ✓   |        |       |
+| navigation                  | ✓   | ✓      |       |
 
 ---
 
