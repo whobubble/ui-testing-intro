@@ -9,7 +9,7 @@
 
 ---
 
-What can we test?
+#### What can we test?
 
 |                             | set | assert | debug |
 | --------------------------- | --- | ------ | ----- |
@@ -23,7 +23,16 @@ What can we test?
 
 ---
 
-What can't we test?
+#### What can't we test?
+
+- multiple origins (e.g. app, then Gmail)
+- multiple browser windows
+- native events (e.g. file upload)
+- multiple browser tabs
+
+---
+
+#### What can't we test YET?
 
 - Websocket "live updates"
   - approach:
@@ -35,16 +44,7 @@ What can't we test?
 
 ---
 
-What can't we test YET?
-
-- multiple origins (e.g. app, then Gmail)
-- multiple browser windows
-- native events (e.g. file upload)
-- multiple browser tabs
-
----
-
-How to write a test
+#### How to write a test
 
 - 1. cypress open
 - 2. create or reuse spec file
